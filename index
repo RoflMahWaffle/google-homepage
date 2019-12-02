@@ -5,22 +5,34 @@
         google
     </title>
     <body>
-        <div id="navigasyon">
-                <ul style="text-decoration-color: black;">
-                        <li><a href="default.asp">Home</a></li>
-                        <li><a href="news.asp">News</a></li>
-                        <li><a href="contact.asp">Contact</a></li>
-                        <li><a href="about.asp">About</a></li>
-                      </ul> 
+            <nav>
+                    <ul>
+                        <li><a href="#">Hakkında</a></li>
+                        <li><a href="#">Mağaza</a></li>
+                        <li class="nav-right"><a id="sign-in" href="sad">Giriş yap</a>
+                        <li class="nav-right"><a id="google-apps-icon" href="asd">
+                            <img id="apps-icon" src=""">
+                        </a>
+                        </li>
+                        <li class="nav-right"><a href="#">Images</a></li>
+                        <li class="nav-right"><a href="#">Gmail</a></li>
+                    </ul>
+                </nav>
         </div>
         <div id="image">
-            <span>
+     
             <div class="google">
                <img alt="Google" id="image" src="images/googlelogo_color_272x92dp.png"  width="272" height="92">
             </div>
-       
-        
-        </span>
+            <form id="container">
+                <input class="searchbar">
+                
+            </form>
+            <center>
+                    <input class="submit" value="Google'da Ara" aria-label="Google'da Ara"type="submit">
+            <input class="submit" value="Kendimi Şanslı Hissediyorum" aria-label="Kendimi Şanslı Hissediyorum" type="submit">
+        </center>
+
                 
 
         </div>

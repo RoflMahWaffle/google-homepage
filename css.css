@@ -1,8 +1,63 @@
 .google {
-    height:92px;
+    height:110px;
     width:272px;
-    padding-top:60px;
+    padding-top:120px;
     display:block;
     margin:0 auto;
    
+}
+input.searchbar{
+    background:#fff;
+display: flex;
+border-radius: 10px;
+border: 1px solid #dfe1e5;
+    border-top-color: rgb(223, 225, 229);
+    border-right-color: rgb(223, 225, 229);
+    border-bottom-color: rgb(223, 225, 229);
+    border-left-color: rgb(223, 225, 229);
+box-shadow: none;
+border-radius: 500px;
+z-index: 3;
+height: 44px;
+margin: 0 auto;
+width: 482px;
+}
+#container{
+    text-align:center
+}
+.submit{
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+background-color:
+#f2f2f2;
+border: 1px solid
+#f2f2f2;
+border-radius: 4px;
+color:
+#5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+
+}
+.nav-right{
+    float:right;
+}
+#sign-in{
+    background-color: #4065a0;
+	border: 1px solid #4065a0;
+	border-radius: 2px;
+	color: white;
+	padding: auto 12px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
 }
