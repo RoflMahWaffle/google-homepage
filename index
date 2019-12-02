@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        woogle
+    </title>
+    <body>
+    <img alt="Google" id="hplogo" src="images/googlelogo_color_272x92dp.png"/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" style="padding-top:109px" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" data-atf="1" data-iml="1575288814937" width="272" height="92">
+    </body>
+</html>
