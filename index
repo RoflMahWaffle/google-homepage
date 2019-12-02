@@ -2,23 +2,22 @@
 <link rel="stylesheet" type="text/css" href="css.css">
 <html>
     <title>
-        google
+        woogle
     </title>
     <body>
-            <nav>
-                    <ul>
-                        <li><a href="#">Hakkında</a></li>
-                        <li><a href="#">Mağaza</a></li>
-                        <li class="nav-right"><a id="sign-in" href="sad">Giriş yap</a>
-                        <li class="nav-right"><a id="google-apps-icon" href="asd">
-                            <img id="apps-icon" src=""">
-                        </a>
-                        </li>
-                        <li class="nav-right"><a href="#">Images</a></li>
-                        <li class="nav-right"><a href="#">Gmail</a></li>
-                    </ul>
-                </nav>
+        <header>
+        <div class="right">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <button> Sign In</button>
+
         </div>
+        <div class="left">
+        <a href="">About</a>
+        <a href="">Store</a>
+
+        </div>
+        </header>
         <div id="image">
      
             <div class="google">
@@ -29,12 +28,21 @@
                 
             </form>
             <center>
-                    <input class="submit" value="Google'da Ara" aria-label="Google'da Ara"type="submit">
-            <input class="submit" value="Kendimi Şanslı Hissediyorum" aria-label="Kendimi Şanslı Hissediyorum" type="submit">
+                    <input class="submit" value="Search on Google" aria-label="Search on Google"type="submit">
+            <input class="submit" value="I feel lucky" aria-label="I feel lucky" type="submit">
         </center>
-
-                
-
-        </div>
+     </div>
+     <footer>
+         <div class="left">
+             <a href="">Advertising</a>
+             <a href="">Business</a>
+             <a href="">How Search Works</a>
+         </div>
+         <div class="right">
+             <a href="">Privacy</a>
+             <a href="">Terms</a>
+             <a href="">Settings</a>
+         </div>
+     </footer>
     </body>
 </html>
