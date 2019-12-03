@@ -28,6 +28,9 @@ z-index: 3;
 height: 44px;
 margin: 0 auto;
 width: 500px;
+padding-left: 20px;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
 }
 #container{
     text-align:center
@@ -72,8 +75,8 @@ user-select: none;
 .left{
     float:left;
     margin:0 5px 0px;
-    margin-top: 9px;
     list-style-type: none;
+    margin-top:5px;
 }
 button{
     line-height:28px;
@@ -108,4 +111,12 @@ footer a{
 }
 a{
     text-decoration: none;
+}
+#bottom-side-left{
+  float: left;
+  padding-top: 10px;
+}
+#bottom-side-right{
+    float: right;
+    padding-top: 10px;
 }
